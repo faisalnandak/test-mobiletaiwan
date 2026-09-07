@@ -787,7 +787,8 @@ body {
   }
 }
 
-@media (max-width: 380px) {
+/* Only the narrowest phones drop to a single column; 375px still fits two. */
+@media (max-width: 340px) {
   .products-grid {
     grid-template-columns: 1fr;
   }
